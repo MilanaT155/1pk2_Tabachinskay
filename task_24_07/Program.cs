@@ -10,7 +10,7 @@
             string word = "Солнце";
             List<string> list = new List<string> (ResultFile(file1, word));
 
-            Console.WriteLine("Строки, содержащие слово '{0}':", word);
+            Console.WriteLine($"Строки, содержащие слово {word}:");
             foreach (var line in list)
             {
                 Console.WriteLine(line);
